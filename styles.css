@@ -1,0 +1,68 @@
+.word-card {
+  background-color: whitesmoke;
+  border-top: 1px solid black;
+  display: grid;
+  grid-template-columns: 50% 50%; /*put definitions and synonyms/antonyms in two blocks side by side to save vertical space*/
+}
+
+.word-panel {
+  border: 1px solid black;
+  border-radius: 16px;
+  margin: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*round the bottom corners of the last word-card element to match word-card's rounded corners*/
+.word-card:last-child {
+  border-radius: 0 0 16px 16px;
+}
+
+/* putting some space between the text and the edges of their respective boxes*/
+.definition-block {
+  padding: 1rem;
+  border-radius: 0 0 16px 0;
+}
+
+.synonym-antonym-block {
+  border-radius: 0 0 0 16px;
+}
+
+.definition-block h4 {
+  color: royalblue;
+}
+
+.word-header {
+  background-color: silver;
+  padding: 1rem;
+  color: blue;
+  border-radius: 16px 16px 0 0;
+}
+
+/*default audio control size was too tall*/
+.short-audio {
+  height: 1rem;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.italics {
+  font-style: italic;
+}
+
+header {
+  text-align: center;
+}
+
+.history-link:hover {
+  cursor: pointer;
+}
+
+.history-link {
+  color: blueviolet;
+}
+
+body {
+  background-color: #8699ad !important;
+}

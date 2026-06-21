@@ -1,0 +1,29 @@
+{
+  "name": "course3-summativelab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6kbgdb7k85-stack/Course3-SummativeLab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/6kbgdb7k85-stack/Course3-SummativeLab/issues"
+  },
+  "homepage": "https://github.com/6kbgdb7k85-stack/Course3-SummativeLab#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "bootstrap": "^5.3.8",
+    "eslint": "^10.5.0",
+    "globals": "^17.6.0",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1"
+  }
+}
