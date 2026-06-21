@@ -99,7 +99,13 @@ function handleWordSubmit(event, historyWord) {
   const submitButton = document.querySelector("#submitButton");
   const dictionaryContainer = document.querySelector("#dictionary-container");
   if (!submittedWord) {
+    dictionaryContainer.style = "text-align: center;";
     dictionaryContainer.textContent = "You have to enter a word to search for!";
+    return;
+  }
+  if(submittedWord.split(' ').length>1){
+    dictionaryContainer.style = "text-align: center;";
+    dictionaryContainer.textContent = "You can only search for 1 word at a time!";
     return;
   }
   renderPlaceholders(dictionaryContainer);
